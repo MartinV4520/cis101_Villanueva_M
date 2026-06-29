@@ -1,0 +1,75 @@
+h1, h2 {
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.summary {
+    font-size: 11px;
+}
+
+a:link {
+    color: #e30b5d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e30b5d;
+}
+
+a:hover,
+a:active {
+    color: #b4aa99;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+.page-wrapper {
+    padding: 1em 2em;
+}
+
+.preamble {
+    padding: 35px 10px;
+    margin: 100px 0 0 0;
+    background: url("images/column-header-1.png") no-repeat top;
+    float: left;
+    width: 45%;
+}
+
+.main {
+    padding: 65px 10px;
+    background: url("images/column-header-2.png") no-repeat center top;
+    float: right;
+    width: 45%;
+}
+
+body {
+    background: url("images/art-deco-texture.jpg") repeat;
+}
+
+header {
+    background: url("images/css-zen-garden.png") no-repeat center;
+}
+
+footer {
+    clear: both;
+    padding-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    float: right;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-top: 20px;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
